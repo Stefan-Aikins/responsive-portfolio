@@ -6,7 +6,41 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
+
 <body>
+
+    <header>
+
+        <!--Styling my navigation bar using bootstrap CDN navbar classes-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+
+            <a class="navbar-brand" href="portfolio.html">Portfolio</a>
+
+            <!--This button is a navigation menu toggler, it appears on the page from screen size.....licking will collapse or display the navigation menu -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+            <!--navigation menu is wrapped in this div to enable toggler to target the navigation links--> 
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">    
+                    
+                <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">My Portfolio</a>
+                        </li>
+                        <li class="nav-item"> 
+                            <a class="nav-link" href="index.html">About me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                </ul>
+
+            </div>
+        </nav>
+
+    </header>
     
 </body>
+
 </html>
