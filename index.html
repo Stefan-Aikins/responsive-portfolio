@@ -4,20 +4,44 @@
 <html lang="en" dir="ltr">
 <head>
     <meta charset="UTF-8">
-    <meta name="" content=""">
+    <meta name="" content="">
     <title>About-me-page</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
 
     <header>
-        <nav>
-            <ul>
-                <li> <a>Home</a> </li>
-                <li> <a>Contact</a> </li>
-                <li> <a>Portfolio</a> </li>
-            </ul>
+
+        <!--Styling my navigation bar using bootstrap CDN navbar classes-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+
+            <a class="navbar-brand" href="index.html">Stefan</a>
+
+            <!--This button is a navigation menu toggler, it appears on the page from screen size..... -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+            <!--navigation menu is wrapped in this div to enable toggler to target the navigation links--> 
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">    
+                    
+                <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">about me</a>
+                        </li>
+                        <li class="nav-item"> 
+                            <a class="nav-link" href="contact.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Contact</a>
+                        </li>
+                </ul>
+
+            </div>
         </nav>
+
     </header>
     
 </body>
