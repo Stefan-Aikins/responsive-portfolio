@@ -6,56 +6,127 @@
     <title>About Stefan</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Sacramento&family=Titan+One&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/stefanFav.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Patua+One&family=Sacramento&family=Titan+One&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 
 <body>
+
+        <div class="container-fluid">
     
-    <header>
+            <header>
 
-        <!--Styling my navigation bar using bootstrap CDN navbar classes-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <!--Styling my navigation bar using bootstrap CDN navbar classes-->
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 
-            <!--This link reloads the curent page-->
-            <a class="navbar-brand brand" href="contact.html">Stefan</a>
+                    <!--This link reloads the curent page-->
+                    <a class="navbar-brand brand" href="contact.html">Stefan</a>
 
-            <!--This button is a navigation menu toggler, it appears on the page from screen size....., clicking will collapse or display the navigation menu -->
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+                    <!--This button is a navigation menu toggler, it appears on the page from screen size....., clicking will collapse or display the navigation menu -->
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
 
-            <!--navigation menu is wrapped in this div to enable toggler to target the navigation links--> 
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">    
+                    <!--navigation menu is wrapped in this div to enable toggler to target the navigation links--> 
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">    
+                            
+                        <ul class="navbar-nav">
+                                <!--My contact is highglighted to show active status-->
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="contact.html">My contact</a>
+                                </li>
+                                <li class="nav-item"> 
+                                    <a class="nav-link" href="index.html">About me</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                                </li>
+                        </ul>
+
+                    </div>
+                </nav>
+
+            </header>
+
+            <main>
+
+                    <section class="contact-button">
+                        <button type="button" class="btn btn-outline-warning" href="#complete-form"><h1 id="contact-heading"> contact me</h1></button>
+                    </section>
+
                     
-                <ul class="navbar-nav">
-                        <!--My contact is highglighted to show active status-->
-                        <li class="nav-item active">
-                            <a class="nav-link" href="contact.html">My contact</a>
-                        </li>
-                        <li class="nav-item"> 
-                            <a class="nav-link" href="index.html">About me</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="portfolio.html">Portfolio</a>
-                        </li>
-                </ul>
+                    <div class="row">
+                        <section class="col-lg-6 col-md-6 col-sm-12" id="complete-form">
+                            <h3 class="sub-heading-two"> Please fill this for if you would like to contact me via email</h3>
+                            <form>
+                                
+                                <div class="form-group">
+                                    <label for="formGroupExampleInput">Full name</label>
+                                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+                                  </div>
 
-            </div>
-        </nav>
+                                  <div class="form-group">
+                                    <label for="exampleInputEmail1">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                  </div>
+  
+                                  <div class="form-group">
+                                    <label for="formGroupExampleInput2">Another label</label>
+                                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+                                  </div>
 
-    </header>
+                                  <div class="form-group">
+                                    <label for="inputAddress">Address</label>
+                                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="inputAddress2">Address 2</label>
+                                    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                                  </div>
+                                  <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                      <label for="inputCity">City</label>
+                                      <input type="text" class="form-control" id="inputCity">
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                      <label for="inputState">State</label>
+                                      <select id="inputState" class="form-control">
+                                        <option selected>Choose...</option>
+                                        <option>...</option>
+                                      </select>
+                                    </div>
+                                    <div class="form-group col-md-2">
+                                      <label for="inputZip">Zip</label>
+                                      <input type="text" class="form-control" id="inputZip">
+                                    </div>
+                                  </div>
+                                  <div class="form-group">
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" id="gridCheck">
+                                
+                                <button type="submit" class="btn btn-secondary">Submit</button>
+                              </form>
+                        </section>
+        
+                        <section class="col-lg-6 col-md-6 col-sm-12 align-icons">
+                            <h3 class="sub-heading-two">Social Handles</h3>
+                            <img src="images/fb.png" alt="facebook icon designed by flat icon" class="handle-icons">
+                            <img src="images/ig.png" alt="facebook icon designed by flat icon" class="handle-icons">
+                            <img src="images/whatsapp.png" alt="facebook icon designed by flat icon" class="handle-icons">
+                            <img src="images/twitter.png" alt="facebook icon designed by flat icon" class="handle-icons">
+                            <img src="images/linkedin.png" alt="facebook icon designed by flat icon" class="handle-icons">
+                        </section>
 
-    <main id="body-margin">
+                    </div>
 
-            <section>
-                        <h1> about me</h1>
-            </section>
-
-    </main>
+                    
+            </main>
     
+        </div>   
 </body>
 
 </html>

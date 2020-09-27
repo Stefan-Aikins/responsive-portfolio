@@ -2,57 +2,89 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stefan's Portfolio</title>
+    <meta name="" content="">
+    <title>About Stefan</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Faster+One&family=Monoton&family=Pacifico&display=swap" rel="stylesheet">
-</head>
+    <link rel="icon" href="images/stefanFav.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Patua+One&family=Sacramento&family=Titan+One&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head></head>
 
 <body>
 
-    <header>
+        <div class="container-fluid">
 
-        <!--Styling my navigation bar using bootstrap CDN navbar classes-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <header>
 
-            <!--This link reloads the curent page-->
-            <a class="navbar-brand brand" href="portfolio.html">Stefan</a>
+                    <!--Styling my navigation bar using bootstrap CDN navbar classes-->
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 
-            <!--This button is a navigation menu toggler, it appears on the page from screen size.....licking will collapse or display the navigation menu -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
+                        <!--This link reloads the curent page-->
+                        <a class="navbar-brand brand" href="portfolio.html">Stefan</a>
 
-            <!--navigation menu is wrapped in this div to enable toggler to target the navigation links--> 
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">    
+                        <!--This button is a navigation menu toggler, it appears on the page from screen size.....licking will collapse or display the navigation menu -->
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <!--navigation menu is wrapped in this div to enable toggler to target the navigation links--> 
+                        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">    
+                                
+                            <ul class="navbar-nav">
+                                    <!--My portfolio is highglighted to show active status-->
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="portfolio.html">My Portfolio</a>
+                                    </li>
+                                    <li class="nav-item"> 
+                                        <a class="nav-link" href="index.html">About me</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="contact.html">Contact</a>
+                                    </li>
+                            </ul>
+
+                        </div>
+                    </nav>
+
+                </header>
+
+                <main>
+
+                    <section>
+                                <h1 id="portfolio-heading"> My portfolio</h1>
+                    </section>
+
                     
-                <ul class="navbar-nav">
-                        <!--My portfolio is highglighted to show active status-->
-                        <li class="nav-item active">
-                            <a class="nav-link" href="portfolio.html">My Portfolio</a>
-                        </li>
-                        <li class="nav-item"> 
-                            <a class="nav-link" href="index.html">About me</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                </ul>
+                    <div class="row">
+                        <section class="col-lg-3 col-md-6 col-sm-12">
+                            <h1 class="sub-heading"> background</h1>
+                            <img class="main-photos" src="images/mall-pic.jpeg">
+                        </section>
 
-            </div>
-        </nav>
+                        <section class="col-lg-3 col-md-6 col-sm-12">
+                            <h1 class="sub-heading "> Education</h1> 
+                            <img class="main-photos" src="images/birmingham-uni.jpg">            
+                        </section>
 
-    </header>
+                        <section class="col-lg-3 col-md-6 col-sm-12">
+                            <h1 class="sub-heading ">Career</h1>
+                            <img class="main-photos" src="images/cover-photo.jpeg">               
+                        </section>
 
-    <main id="body-margin">
+                        <section class="col-lg-3 col-md-6 col-sm-12">
+                            <h1 class="sub-heading "> Hobbies</h1>   
+                            <img class="main-photos" src="images/section-image.jpg">            
+                        </section>
+                        
+                    </div>
 
-            <section>
+                </main>
 
-            </section>
+        </div>    
 
-    </main>
-    
 </body>
 
 </html>

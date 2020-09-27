@@ -12,11 +12,34 @@
     font-size: 5rem;
 }
 
+#contact-heading{
+    font-family: 'Patua One', cursive;
+    font-size: 3rem;
+}
+
+.contact-button{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align:center;
+
+}
+
+#portfolio-heading{
+    text-align:center;
+    font-family: 'Patua One', cursive;
+    font-size: 3rem;
+    margin-top: 20px;
+}
+
 .sub-heading{
     font-family: 'Sacramento', cursive;
     text-align: center;
     color:darkgoldenrod;
-    
+}
+
+.sub-heading-two{
+    font-family: 'DM Serif Display', serif;
+
 }
 
 p{
@@ -46,4 +69,14 @@ width: 100%;
 footer{
     text-align: center;
     margin-top: 20px;
+}
+
+.handle-icons{
+    width:70px;
+    height:70px;
+    }
+
+.align-icons{
+    text-align: center;
+    display:block;
 }
