@@ -1,0 +1,49 @@
+.brand{
+    font-family: 'Titan One', cursive;
+}
+
+.container-fluid{
+    padding:0 5%;
+}
+
+#page-heading{
+    text-align:center;
+    font-family: 'Sacramento', cursive;
+    font-size: 5rem;
+}
+
+.sub-heading{
+    font-family: 'Sacramento', cursive;
+    text-align: center;
+    color:darkgoldenrod;
+    
+}
+
+p{
+    color:darkslategrey;
+}
+
+.info-image{
+    float:left;
+    width:150px;
+    height:150px;
+    padding:5px;
+}
+
+.page-photo{
+width: 100%;
+}
+
+#cover-container{
+    margin-bottom: 50px;
+}
+
+.main-photos{
+    width:300px;
+    height:300px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+}
