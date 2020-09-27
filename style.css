@@ -15,14 +15,17 @@
 #contact-heading{
     font-family: 'Patua One', cursive;
     font-size: 3rem;
+    color:orange;
 }
 
-.contact-button{
+.contact-me{
     padding-top: 40px;
     padding-bottom: 20px;
-    text-align:center;
-
+    text-align:left;
+    position: relative;
+    left: 200px;
 }
+
 
 #portfolio-heading{
     text-align:center;
@@ -71,12 +74,50 @@ footer{
     margin-top: 20px;
 }
 
-.handle-icons{
-    width:70px;
-    height:70px;
+#icon-one{
+    width: 100px;
+    height: 100px;
+    display: block;
+    position: absolute;
+    left: 300px;
     }
+
+#icon-two{
+    width: 100px;
+    height: 100px;
+    display: block;
+    position: absolute;
+    top: 140px;
+    left: 300px;
+} 
+
+#icon-three{
+    width: 100px;
+    height: 100px;
+    display: block;
+    position: absolute;
+    top: 270px;
+    left: 300px;
+}
+
+#icon-four{
+    width: 100px;
+    height: 100px;
+    display: block;
+    position: absolute;
+    top: 390px;
+    left: 300px
+}
+
+#icon-five{
+    width: 100px;
+    height: 100px;
+    display: block;
+    position: absolute;
+    top: 520px;
+    left: 300px;
+}
 
 .align-icons{
     text-align: center;
-    display:block;
 }
