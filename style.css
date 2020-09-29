@@ -1,3 +1,4 @@
+
 .brand{
     font-family: 'Titan One', cursive;
 }
@@ -8,8 +9,8 @@
 
 #page-heading{
     text-align:center;
-    font-family: 'Sacramento', cursive;
-    font-size: 5rem;
+    font-family: 'DM Serif Display', serif;
+    font-size: 3rem;
 }
 
 #contact-heading{
@@ -32,12 +33,11 @@
     font-family: 'Patua One', cursive;
     font-size: 3rem;
     margin-top: 20px;
+    color: orange;
 }
 
 .sub-heading{
-    font-family: 'Sacramento', cursive;
-    text-align: center;
-    color:darkgoldenrod;
+    font-family: 'DM Serif Display', serif;
 }
 
 .sub-heading-two{
@@ -50,10 +50,8 @@ p{
 }
 
 .info-image{
-    float:left;
-    width:150px;
-    height:150px;
-    padding:5px;
+    width:100px;
+    height:100px;
 }
 
 .page-photo{
@@ -62,6 +60,23 @@ width: 100%;
 
 #cover-container{
     margin-bottom: 50px;
+}
+
+/*maximum of the section images*/
+.section-container-image {
+    max-height: 200px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.section-container {
+    margin-bottom: 20px;
+    padding: 50px;
+    font-family: 'Fredoka One', cursive;
+    background-color: #faf3dd;
 }
 
 .main-photos{
@@ -101,8 +116,8 @@ footer{
 }
 
 #icon-four{
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     display: block;
     position: absolute;
     top: 390px;
@@ -120,4 +135,22 @@ footer{
 
 .align-icons{
     text-align: center;
+}
+
+.thumbnail{
+    text-align: center;
+}
+
+.thumb-heading{
+ margin-top: 50px;
+ font-family: 'Patua One', cursive;   
+}
+
+.thumb-p{
+    font-family: 'Fredoka One', cursive;  
+}
+
+.thumb-container{
+    background-color: #faf3dd;
+    padding: 20px 50px 50px 50px;
 }
