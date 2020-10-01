@@ -1,4 +1,5 @@
 
+
 .brand{
     font-family: 'Titan One', cursive;
 }
@@ -137,6 +138,12 @@ width: 100%;
     text-align: center;
 }
 
+.thumbnail-p{
+    text-align: center;
+    padding-top: 20px;
+}
+
+
 .thumb-heading{
  margin-top: 50px;
  font-family: 'Patua One', cursive;   
@@ -156,14 +163,18 @@ width: 100%;
     width:60px;
     
 }
+
+.bottom-container{
+    margin-top: 40px;
+}
  
 
 
 footer{
-    background-color: #faf3dd; 
     margin-top:20px; 
     text-align: center;
-    padding:20px
+    padding:20px;
+    background-color:#faf3dd;
 }
 
 .footer-heading{
