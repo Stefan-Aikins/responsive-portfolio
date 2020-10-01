@@ -4,4 +4,9 @@ creating basic responsive design
 
 ## About me 
 
-About me is the homepage, clicking the navigation(nav) logo reloads the pages. clicking the nav logo on the contact or portfolio pages takes the user to the home page. NB: index.html is the about me page
+About me is the homepage, clicking the navigation(nav) logo reloads the web page. clicking the nav logo in the contact or portfolio pages takes the user to the home page.
+
+## Usage
+* Clicking about me on the nav menu loads the about me page, contact will take the user to my contact me page and portfolio will load my portfolio page.
+* The slide show automatically cycles through images of my life memories and also communicates to the user about my life.
+* Clicking the next and prevoius controls manually cycles through the images
