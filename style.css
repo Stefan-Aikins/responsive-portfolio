@@ -1,31 +1,35 @@
 
-
+/*styling the brand name*/
 .brand{
     font-family: 'Titan One', cursive;
 }
 
+/*spacing the the feft and right margins of the div*/
 .container-fluid{
     padding:0 5%;
 }
 
+/*overright margins of the rows */
 .row-margin{
     margin-left: 0;
     margin-right: 0;
 }
 
+/*changing the color, type and size of the contact heading*/
 #contact-heading{
     font-family: 'Patua One', cursive;
     font-size: 3rem;
     color:orange;
 }
 
+/*adding more spacing around the headi*/
 .contact-me{
     padding-top: 40px;
     padding-bottom: 20px;
     padding-left: 100px;
 }
 
-
+/*positioning the heading at the top-centre, increasing font size and the type*/
 #portfolio-heading{
     text-align:center;
     font-family: 'Patua One', cursive;
@@ -42,24 +46,29 @@
     padding-left: 20px;
 }
 
+/*setting font type for lower level heading*/
 .sub-heading-two{
     font-family: 'DM Serif Display', serif;
 
 }
 
+/*paragraph color*/
 p{
     color:darkslategrey;
 }
 
+/*resizing icons*/
 .info-image{
     width:100px;
     height:100px;
 }
 
+/*not in use (will delete this code in future) */
 .page-photo{
 width: 100%;
 }
 
+/*spacing the bottom of my image slider*/
 #cover-container{
     margin-bottom: 20px;
 }
@@ -69,11 +78,13 @@ width: 100%;
     max-height: 200px;
 }
 
+/* position the image on the left hand side of text*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*font style, background color and spacing the bottom of the about me section*/
 .section-container {
     margin-bottom: 20px;
     padding: 50px;
@@ -81,11 +92,13 @@ width: 100%;
     background-color: #faf3dd;
 }
 
+/*resizing portfolio images*/
 .main-photos{
     width:100%;
     height:300px;
 }
 
+/* resizing, spacing and setting the layout of twitter icon on contact me page*/
 #icon-one{
     width: 100px;
     height: 100px;
@@ -93,6 +106,7 @@ width: 100%;
     margin-left: 200px;
     }
 
+/* resizing, spacing and setting the layout of facebook icon on contact me page*/
 #icon-two{
     width: 100px;
     height: 100px;
@@ -101,6 +115,7 @@ width: 100%;
     margin-top: 75px;
 }
 
+/* resizing, spacing and setting the layout of instagram icon on contact me page*/
 #icon-three{
     width: 100px;
     height: 100px;
@@ -109,6 +124,7 @@ width: 100%;
     margin-top: 75px;
 }
 
+/* resizing, spacing and setting the layout of linkedin icon on contact me page*/
 #icon-four{
     width: 100px;
     height: 100px;
@@ -118,55 +134,52 @@ width: 100%;
     margin-bottom: 20px;
 }
 
-#icon-five{
-    width: 100px;
-    height: 100px;
-    display: block;
-    margin-left: 200px;
-    margin-top: 75px;
-    
-}
-
+/*align the social media icons within this page at the centre*/
 .align-icons{
     text-align:center;
 }
 
+/*position all content at the centre of the this container*/
 .thumbnail{
     text-align: center;
 }
 
+/*spacing at the top of level 4 heading and position at the centre of container*/
 .thumbnail-p{
     text-align: center;
     padding-top: 20px;
 }
 
-
+/*changing the font style and spaing the top of the header*/
 .thumb-heading{
  margin-top: 50px;
  font-family: 'Patua One', cursive;   
 }
 
+/*changingn the font style*/
 .thumb-p{
     font-family: 'Fredoka One', cursive;  
 }
 
+/*changing background color and spacing all sides*/
 .thumb-container{
     background-color: #faf3dd;
     padding: 20px 50px 50px 50px;
 }
 
+/*resizing*/
 .bottom-icon{
     height:60px;
     width:60px;
     
 }
-
+/*spacing the the top of the aside content*/
 .bottom-container{
     margin-top: 40px;
 }
  
 
-
+/*spacing, setting a background color and position at the centre of container*/
 footer{
     margin-top:20px; 
     text-align: center;
@@ -174,15 +187,17 @@ footer{
     background-color:#faf3dd;
 }
 
+/*position at the centre*/
 .footer-heading{
     text-align: center;
 }
 
+/*background color of the main section*/
 .back-color{
     background-color:#faf3dd;  
 }
 
-/*Adding some spacing to the rows*/
+/*Adding some spacing to the portfolio-rows*/
 .portfolio-row{
     padding: 0 12px
 }
