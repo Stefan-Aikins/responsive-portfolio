@@ -2,6 +2,8 @@
 creating basic responsive design
 * Consist of 3 pages; about me, contact and portfolio
 
+Click here to visit my website: [My first responsive website](https://stefan-aikins.github.io/responsive-portfolio/)
+
 ## About me 
 
 About me is the homepage, clicking the navigation(nav) logo reloads the web page. clicking the nav logo in the contact or portfolio pages takes the user to the home page.
@@ -21,6 +23,10 @@ About me is the homepage, clicking the navigation(nav) logo reloads the web page
 ## My Portfolio
 * Simply scroll up and down the page to view pictures and memories about my past experiences in life, education, career and leisure.
 
+## Credits
+  * Responsive design and part of the styling is supported by Bootstrap Content Delivery Network [Bootstrap](https://getbootstrap.com/)
+  * Font styling is supported by [Google fonts](https://fonts.google.com/)
+  * icons were sourced from [flat icons](https://www.flaticon.com/)
 
 ## Future Developments
 * Form will confirm submission
